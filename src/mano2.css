@@ -1,0 +1,51 @@
+.header-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #0b1f5e;
+    width: 80%;
+    height: 100px;
+  }
+  
+
+
+
+.right-icon {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.right-icon img {
+  display: flex;
+  margin-left: 5px; /* 设置图标之间的间距 */
+  transform: scale(0.5); /* 缩放right-icon中的图像 */
+  transform-origin: left top; /* 缩放原点设置为左上角 */
+  cursor: pointer; /* 鼠标悬停时显示手型图标 */
+  align-items: end;
+  /* flex-shrink:1;
+  flex-basis:200; */
+}
+
+.right-icon-1, .right-icon-2, .right-icon-3 {
+  margin-left: 5px; /* 设置图标之间的间距 */
+}
+
+
+.right-icon-2 {
+  transform: scale(0.5); /* 缩放left-logo */
+  width: 120px;
+  cursor: pointer; /* 鼠标悬停时显示手型图标 */
+  margin-right: 30px;
+}
+
+
+.right-icon-3 {
+  transform: scale(0.5); /* 缩放left-logo */
+  width: 150px;
+  cursor: pointer; /* 鼠标悬停时显示手型图标 */
+}
+
+
+
+
